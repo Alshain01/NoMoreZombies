@@ -3,4 +3,4 @@ version: 1.0.1
 description: Plugin that removes the ability for monsters to call reinforcements
 author: Alshain01
 website: http://dev.bukkit.org/bukkit-plugins/nomorezombies/
-main: alshain01.NoMoreZombies.NoMoreZombies
+main: alshain01.NoMoreZombies.Main
