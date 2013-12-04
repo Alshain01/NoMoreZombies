@@ -5,7 +5,7 @@
 	<version>1.0.1</version>
 	<name>NoMoreZombies</name>
 	<description>Plugin that removes the ability for monsters to call reinforcements.</description>
-	<url>http://dev.bukkit.org/bukkit-plugins/hardcoreclaims/</url> 
+	<url>http://dev.bukkit.org/bukkit-plugins/nomorezombies/</url>
 
 	<repositories>
 		<repository>
