@@ -3,4 +3,4 @@ version: ${project.version}
 description: ${project.description}
 author: ${project.author}
 website: ${project.url}
-main: ${project.groupId}.${project.artifactId}
+main: ${project.groupId}.${project.artifactId}.${project.name}
