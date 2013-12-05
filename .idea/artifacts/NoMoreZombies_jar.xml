@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="NoMoreZombies:jar">
-    <output-path>$PROJECT_DIR$/classes/artifacts/NoMoreZombies_jar</output-path>
-    <root id="archive" name="NoMoreZombies.jar">
-      <element id="module-output" name="NoMoreZombies" />
-    </root>
-  </artifact>
-</component>
