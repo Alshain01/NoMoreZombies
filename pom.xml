@@ -2,10 +2,17 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.github.alshain01</groupId>
 	<artifactId>NoMoreZombies</artifactId>
+    <packaging>jar</packaging>
 	<version>1.0.1</version>
 	<name>NoMoreZombies</name>
 	<description>Plugin that removes the ability for monsters to call reinforcements.</description>
 	<url>http://dev.bukkit.org/bukkit-plugins/nomorezombies/</url>
+
+    <properties>
+        <project.author>Alshain01</project.author>
+        <project.main>io.github.alshain01.NoMoreZombies.NoMoreZombies</project.main>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
 	<repositories>
 		<repository>
@@ -19,6 +26,8 @@
 			<groupId>org.bukkit</groupId>
 			<artifactId>bukkit</artifactId>
 			<version>LATEST</version>
+            <type>jar</type>
+            <scope>provided</scope>
 		</dependency>
 	</dependencies>
 
@@ -28,12 +37,6 @@
 		<url>https://github.com/Alshain01/NoMoreZombies</url>
 		<tag>master</tag>
 	</scm>
-
-	<properties>
-        <project.author>Alshain01</project.author>
-        <project.main>io.github.alshain01.NoMoreZombies.NoMoreZombies</project.main>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
 
 	<build>
 		<defaultGoal>clean package install</defaultGoal>
@@ -49,7 +52,7 @@
 					<target>1.6</target>
 				</configuration>
 			</plugin>
-		</plugins>
+        </plugins>
 
 		<resources>
 			<resource>
